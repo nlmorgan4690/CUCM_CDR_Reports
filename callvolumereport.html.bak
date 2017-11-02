@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta content="text/html; charset=UTF-8" http-equiv="content-type">
+    <title>{{month}}callvolumereport</title>
+  </head>
+  <body>
+    <h1 style="text-align: left;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </h1>
+    <table style="width: 1067px;" border="0">
+      <tbody>
+        <tr>
+          <td style="width: 40.3333px;"><br>
+          </td>
+          <td style="width: 964.333px; text-align: center; height: 223px;"> <img
+              style="width: 310px; height: 175px;" src="C:\Users\nlmorgan\Documents\Python\Report\connectED_logo.png"><br>
+            <strong><u><b>Call Volume Report for the month of {{month}}</b></u></strong><br>
+            Of the following phone numbers: {{phone_numbers}} </td>
+          <td style="width: 40.3333px;"><br>
+          </td>
+        </tr>
+        <tr>
+          <td><br>
+          </td>
+          <td>
+            <table style="width: 972px; height: 97px;" border="0">
+              <tbody>
+                <tr>
+                  <td style="width: 462.467px;">
+                    <table style="width: 460px; height: 56px;" border="0">
+                      <tbody>
+                        <tr>
+                          <td style="text-align: center;">{{s_variable}}</td>
+                        </tr>
+                        <tr>
+                          <td style="text-align: center;">&nbsp;{{s_graph}}</td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </td>
+                  <td style="width: 493.233px; text-align: center;">{{describe_variable}}</td>
+                </tr>
+              </tbody>
+            </table>
+          </td>
+          <td><br>
+          </td>
+        </tr>
+        <tr>
+          <td><br>
+          </td>
+          <td style="text-align: center;"><br>
+          </td>
+          <td><br>
+          </td>
+        </tr>
+        <tr>
+          <td><br>
+          </td>
+          <td><b>Call Volume by Extension per day of month:</b><code> </code></td>
+          <td><br>
+          </td>
+        </tr>
+        <tr>
+          <td><br>
+          </td>
+          <td style="text-align: center;">{{image_list_per_day}} </td>
+          <td><br>
+          </td>
+        </tr>
+        <tr>
+          <td><br>
+          </td>
+          <td><b>Call Volume by Extension per hour: </b></td>
+          <td><br>
+          </td>
+        </tr>
+        <tr>
+          <td style="text-align: center;"><br>
+          </td>
+          <td style="text-align: center;">{{image_list_per_hour}} </td>
+          <td><br>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+    <h1 style="text-align: left;"></h1>
+    <br>
+  </body>
+</html>
